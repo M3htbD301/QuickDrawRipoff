@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+#score{
+    float:left;
+    font-size:20px
+    
+}
+#time{
+    float:right;
+    font-size:20px
+    
+}
