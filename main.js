@@ -1,3 +1,11 @@
+function setup() {
+    canvas = createCanvas(180, 280);
+    canvas.center();
+    backround("white");
+    canvas.mouseRelease(classifyCanvas);
+    synth=window.SpeechSynthesis;
+}
+
 random_no = Math.floor((Math.random()*quick_draw_data_set.length)+1);
 
 console.log(quick_draw_data_set[random_number]);
